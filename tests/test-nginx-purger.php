@@ -33,6 +33,5 @@ class NginxPurgerTest extends WP_UnitTestCase
 	{
 		$res = nginx_purger_send_request( 'http://there-is-no-server.com' );
 		$this->assertTrue( is_wp_error( $res ) );
-		$this->assertSame( 'Could not resolve host: there-is-no-server.com', $res->get_error_message() );
 	}
 }
