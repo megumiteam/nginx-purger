@@ -1,11 +1,7 @@
 <?php
 /*
-Plugin Name: Nginx-purger
-Version: 0.1-alpha
-Description: PLUGIN DESCRIPTION HERE
-Author: YOUR NAME HERE
-Author URI: YOUR SITE HERE
-Plugin URI: PLUGIN SITE HERE
+Plugin Name: Nginx Purger
+Version: 0.1.0
 Text Domain: nginx-purger
 Domain Path: /languages
 */
